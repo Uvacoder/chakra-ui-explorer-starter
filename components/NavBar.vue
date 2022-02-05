@@ -42,9 +42,19 @@
           is-esternal
           href="https://github.com/chakra-ui/chakra-ui-vue"
         >
-          Repo
+          GitHub
         </c-link>
       </c-box>
+      <c-box>
+      <c-link
+          color="gray.500"
+          :_hover="{ color: 'brand.400' }"
+          is-esternal
+          href="https://github.com/uvacoder/chakra-ui-explorer"
+        >
+          Edit repo
+        </c-link>
+       </c-box>
       <c-box as="li">
         <c-icon-button
           variant="ghost"
