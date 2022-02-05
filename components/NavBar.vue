@@ -45,7 +45,7 @@
           GitHub
         </c-link>
       </c-box>
-      <c-box>
+      <c-box as="li" mr="8">
       <c-link
           color="gray.500"
           :_hover="{ color: 'brand.400' }"
@@ -63,6 +63,7 @@
           :icon="colorMode == 'light' ? 'moon' : 'sun'"
           @click="$toggleColorMode"
         />
+        Current mode: {{ colorMode }}
       </c-box>
     </c-box>
   </c-box>
